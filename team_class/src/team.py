@@ -16,8 +16,6 @@ class Team:
     #         else:
     #             return False
 
-    def play_game(self, boolean):
-        if True:
+    def play_game(self, game_won):
+        if game_won:
             self.points += 3
-        else:
-            self.points += 0
