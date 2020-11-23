@@ -4,8 +4,8 @@ class Student:
        self.name = input_name
        self.cohort = input_cohort
 
-    def get_student_to_talk(self, student_name):
-        print("I can talk")
+    def talk(self):
+        return "I can talk!"
 
     def say_favourite_language(self, language):
         print("I love {language}")
