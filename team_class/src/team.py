@@ -16,6 +16,8 @@ class Team:
     def has_player(self, player):
         if player in self.players:
             return True
+        else:
+            return False
 
     # def has_player(self, player_name):
     #     for player in self.players:
