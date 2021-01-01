@@ -1,8 +1,8 @@
 class Student:
 
-    def __init__(self, input_name, input_cohort):
-       self.name = input_name
-       self.cohort = input_cohort
+    def __init__(self, name, cohort):
+       self.name = name
+       self.cohort = cohort
 
     def talk(self):
         return "I can talk!"
